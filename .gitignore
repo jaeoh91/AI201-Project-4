@@ -1,0 +1,17 @@
+# API keys — never commit these
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Runtime data — contains raw submitted text, shouldn't be committed
+audit_log.jsonl
+
+# macOS
+.DS_Store
